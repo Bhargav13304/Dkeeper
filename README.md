@@ -2,11 +2,14 @@
 
 ## 1. Project Description
 
-Dkeeper is a decentralized note-taking application built on the Internet Computer (IC) blockchain. This project aims to provide a secure and persistent solution for managing notes, leveraging the unique capabilities of the IC. It allows users to create and store notes, and these notes remain available even after a refresh, thanks to the IC's persistent storage. Dkeeper seeks to offer a robust and reliable alternative to traditional note-taking applications, taking advantage of decentralization.
+Dkeeper is a decentralized note-taking application built on the Internet Computer (IC) blockchain. It provides a secure and persistent solution for managing notes, leveraging the IC's capabilities. Users can create, store, view, edit, and delete notes, which are stored in a dynamically updated ordered list.  When a note is edited, it's re-ordered to the top, ensuring the most recently edited notes are always at the forefront.  Notes are stored chronologically by creation or modification date and time, ensuring persistence across refreshes. Dkeeper offers a robust, reliable, and decentralized alternative to traditional note-taking applications.
 
-The core idea is to demonstrate how blockchain technology can be used to create applications with persistent data storage and enhanced reliability. Dkeeper showcases the potential of decentralized systems to protect user information, offering a censorship-resistant way to manage notes. It is designed to be a practical example, highlighting the advantages of decentralization, such as data integrity and resistance to data loss. The application emphasizes the immutability and persistence inherent in blockchain technology, ensuring that user data is protected and always accessible.
+The core idea is to demonstrate blockchain's potential for applications requiring persistent, ordered data and high reliability. Dkeeper showcases a censorship-resistant way to manage notes with a dynamic, time-based ordering system. It highlights the advantages of decentralization, including data integrity and resistance to data loss. The application emphasizes the immutability and persistence inherent in blockchain technology, ensuring that user data is protected and always accessible.
 
-Dkeeper is more than just a demonstration; it's a step towards a future where individuals have greater control over their digital information and can rely on its persistence. By using the Internet Computer, Dkeeper can theoretically scale to support a large number of users and notes. The project also serves as a learning tool for developers interested in building on the Internet Computer with React and Motoko.
+Dkeeper's functionality is similar to the "Keeper" app on phones, a simple note-taking application for quick capture of thoughts and lists. Like Keeper, Dkeeper offers straightforward note management, but with the added benefits of decentralization and persistence.  Dkeeper replicates basic note-taking functionality, such as creating, editing, and deleting notes, while ensuring decentralized and persistent storage.
+
+Dkeeper represents a move towards greater user control over digital information, with reliance on data persistence and chronological ordering. Built on the Internet Computer, Dkeeper can theoretically scale to support many users and notes. It also serves as a learning tool for developers interested in building decentralized applications with React and Motoko.
+
 
 ## 2. Technologies Used
 
